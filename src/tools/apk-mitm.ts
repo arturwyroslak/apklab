@@ -25,7 +25,7 @@ export namespace apkMitm {
 
             const projectDir = path.dirname(apktoolYmlPath);
 
-            await observeListr(applyPatches(projectDir)).forEach((line) =>
+            await observeListr(applyPatches(projectDir)).forEach((line: string) =>
                 outputChannel.appendLine(line),
             );
 
