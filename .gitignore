@@ -1,7 +1,0 @@
-out
-node_modules
-dist/
-.vscode-test/
-*.vsix
-vsc-extension-quickstart.md
-.DS_Store
